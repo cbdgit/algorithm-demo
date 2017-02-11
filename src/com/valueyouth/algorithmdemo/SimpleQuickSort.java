@@ -6,24 +6,31 @@ package com.valueyouth.algorithmdemo;
  * @since 2017-2-7
  * @version 1.0
  */
-public class SimpleQuickSort
-{
+public class SimpleQuickSort {
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
+		
 		
 	}
 	
 	
 	/**
 	 * 方法说明：
-	 * @param numbers
-	 * @param left
-	 * @param right
-	 * @return
+	 * @param numbers 源数组
+	 * @param left 首部索引，一般是基准位置。
+	 * @param right 尾部索引
+	 * @return 基准数字所在的位置
 	 */
-	private int partition(int[] numbers, int left, int right)
-	{
+	private int partition(int[] numbers, int left, int right) {
+		int pivotNumber = numbers[left]; // 将数组第一位作为基准
+		
+		while (left < right) {
+			while (left < right && numbers[right] > pivotNumber) {
+				
+			}
+			
+			
+		}
 		
 		return 0;
 	}
